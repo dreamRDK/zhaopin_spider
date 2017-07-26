@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="top.dreamrdk.domain" >
+	<class name="LiePinInfo" table="t_liepin"  >
+		<id name="id" >
+			<generator class="native"></generator>
+		</id>
+		<property name="jobName"  ></property>
+		<property name="companyName"  ></property>
+		<property name="salary"  ></property>
+		<property name="area"  ></property>
+		<property name="demand"  ></property>
+		<property name="jobDescription" type="text" >
+		</property>
+		<property name="companyintroduce" type="text" ></property>
+	</class>
+</hibernate-mapping>
